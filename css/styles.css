@@ -38,11 +38,17 @@ header {
 }
 
 .logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.logo span {
-    color: #4D5AE5;
+.logo-accent {
+    color: #2E2F42;
 }
 
 .banner-section {
@@ -53,17 +59,22 @@ header {
     color:#ffffff;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
 .banner-button {
+    font-weight: 500;
     background-color:#4D5AE5;
     color: #ffffff;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     text-align: center;
+    cursor: pointer;
 }
-.banner-button:hover,
+
+.banner-button:hover, 
 .banner-button:focus {
     background-color: #404BBF;
 }
@@ -74,11 +85,16 @@ header {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .card-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .text {
     color: #434455; 
@@ -96,7 +112,7 @@ header {
     color:#F4F4FD;
     background-color: #2E2F42;
 }
-.footer .logo {
+.footer .logo-accent {
     color:#F4F4FD;
 }
 
